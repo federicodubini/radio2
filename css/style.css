@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+	margin: 0; 
+}
+
+h1 {
+	margin: 0; 
+}
+
+.griglia{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 10em;
+	grid-column-gap: 3em;
+	z-index: 10;
+
+}
+
+.griglia2{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.sottogriglia{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 1em;
+	grid-column-gap: 3em;
+}
+
+.sottogriglia2{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 1em;
+	grid-column-gap: 3em;
+}
+
+.margini {
+	margin: 0 10em 0 10em;
+}
+
+.cella2{
+	/*outline: 1px red solid;*/
+
+	text-align: left;
+	display: table;
+	z-index: 10;
+}
+
+.tre{
+	grid-column: span 3;
+	/*outline: 1px red solid;*/
+}
+
+.cella{
+	/*outline: 1px red solid;*/
+	min-height: 10em;
+}
+
+.singola{
+	/*outline: 1px red solid;*/
+	grid-column: span 3;
+}
+
+.doppia{
+	/*outline: 1px red solid;*/
+	grid-column: span 2;
+}
+
+.background{
+	background-image: url(../img/pattern.png); 
+	background-repeat: repeat;
+}
+
+.text{
+	color: #E8E8E8;
+}
+
+.text2{
+	color: #181818;
+}
+
+.box{
+	width: 75%;
+	position: relative;
+	z-index: 20;
+	margin: -30em auto 0 auto;
+}
+
+.box2{
+	width: 75%;
+	position: relative;
+	z-index: 20;
+	margin: 0 auto -30em auto;
+}
+
+.red{
+	color: #E63746;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 30pt;
+	color: #E63746;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 20pt;
+	margin: 0px;
+}
+
+h3{
+	color: white;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 12pt;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+h4{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	font-weight: normal;
+	margin-top: -15px;
+
+}
+
+h5{
+	color: #E8E8E8;
+	font-size: 12pt;
+	font-family: 'Roboto', sans-serif;
+	margin: 1em 0em 1em 0em;
+	text-align: center;
+}
+
+hr{ 
+	color: black;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	text-align: left;
+	margin: 0;
+	line-height: 21px;
+}
+
+a{
+	color: #E8E8E8;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #E63746;
+}

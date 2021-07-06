@@ -45,6 +45,12 @@ h1 {
 	margin: 0 10em 0 10em;
 }
 
+.rid{
+	object-fit: cover;
+    width: 400px;
+    height: 300px;
+}
+
 .cella2{
 	/*outline: 1px red solid;*/
 
